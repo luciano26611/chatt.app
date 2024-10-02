@@ -28,7 +28,7 @@ func main() {
 	// Obtener el puerto de la variable de entorno PORT asignada por Render
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "8080" // Valor por defecto para uso local
+		port = "10000" // Valor por defecto para uso local
 	}
 
 	r := newRoom()
